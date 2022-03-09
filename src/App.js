@@ -1,15 +1,18 @@
-import { useFeaturedBanners } from './hooks/useFeaturedBanners';
+import { Footer, Header } from './components';
 import { HomePage } from './pages/HomePage';
+//import { useFeaturedBanners } from './hooks/useFeaturedBanners';
 
 function App() {
 
-  const { data, isLoading } = useFeaturedBanners();
-  console.log(data, isLoading);
+  //const { data, isLoading } = useFeaturedBanners();
+  //console.log(data, isLoading);
 
   return (
-    <div>
+    <>
+      <Header />
       <HomePage />
-    </div>
+      <Footer />
+    </>
   );
 }
 
