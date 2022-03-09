@@ -6,10 +6,6 @@ Here you will find all the instructions to complete your **Capstone Project**.
 
 **Goal**: The purpose of this project is for you to demonstrate your React skills. This is your chance to show off everything you have learned during this program!
 
-You will build and deliver an entire React application on your own from scratch. The project is divided into weekly deliverables, in which you will apply the concepts learned in the assignments and live sessions. Each deliverable has its information on what and how we expect you to deliver throughout the Bootcamp.
-
-We hope you find this project challenging and engaging!
-
 ## The Project
 
 Create an Ecommerce Store where you can buy furniture and home decor items. It should have the following sections:
@@ -23,28 +19,6 @@ Create an Ecommerce Store where you can buy furniture and home decor items. It s
 
 We don’t want to limit you or bias your implementation by providing some demo application with a specific design, but instead, ask you to choose your own and build it from scratch. Here’s a link where you can find great ideas and inspiration for your UI design: https://dribbble.com/search/ecommerce
 
-# Deliverables
-
-We provide the delivery dates to plan accordingly. Please take this project seriously and try to make progress constantly. If you are struggling with something or get stuck at some point, please schedule a mentoring session to get help on time. Feel free to use the slack channel available.
-
-The following is the list deliverables:
-- [**Deliverable 1**](#deliverable-1)(Due date Monday, March 7th)
-- [**Deliverable 2**](#deliverable-2) (Due date Monday, March 14th)
-- [**Deliverable 3**](#deliverable-3) (Due date Monday, March 28th)
-- [**Final Deliverable**](#deliverable-4) (Due date Monday, April 4th)
-
-
-### Submitting your Deliverables
-
-Once you’ve covered all the requirements and completed all the bullets on the Evaluation Criteria section:
-1. Push your changes to your branch.
-1. Open a **PR** that can be merged into your **main** branch of your **own** GitHub repository.
-1. Remember to add your mentor as a reviewer
-1. Deploy your app into a hosting service such as Netlify, Firebase, Heroku, GitHub Pages, among others.
-1. Share the links of both your PR and your application to your mentor
-1. Fill [the form](https://forms.gle/jfox1dj2RVVr3jyq5) to submit your project
-
-
 ## Deliverable 1
 
 - **Goal:** In this assignment, you will create the initial version of your Ecommerce Store. It should contain the following:
@@ -56,7 +30,7 @@ Once you’ve covered all the requirements and completed all the bullets on the 
 Follow these steps before you begin:
 <ol>
   <li>Fork <a href=
-              https://github.com/wizelineacademy/react-bootcamp-capstone-4">this repo</a> into your GitHub account.
+              https://github.com/wizelineacademy/react-bootcamp-capstone-4>this repo</a> into your GitHub account.
   <li>Make sure that your new repo is publicly accessible.
   <li>Create a new branch with the name <b>“feat/deliverable1”</b> derived from <b>main</b> on your forked repository.
   <li>Start working on the requirements specified below.
