@@ -1,10 +1,10 @@
-import featuredBanners from '../../mocks/en-us/featured-banners.json';
 import { useState, useEffect } from "react";
 import { Banner } from './Banner';
+import featuredBanners from '../../mocks/en-us/featured-banners.json';
 
-const Slider = () => {
+export const Slider = () => {
   const { results: resultsBanner } = featuredBanners;
-  const [transitionActive, setTransitionActive] = useState(true);
+  const [transitionActive, setTransitionActive] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const length = resultsBanner.length;
 
@@ -54,7 +54,7 @@ const Slider = () => {
           onClick={prevSlide}
         ><i className="fa-solid fa-angle-left" /> Prev</button>
         {
-          setTransitionActive ?
+          transitionActive ?
             (
               <button
                 onClick={onSetTransitionActive}
@@ -74,4 +74,3 @@ const Slider = () => {
   );
 };
 
-export default Slider;

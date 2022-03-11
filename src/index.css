@@ -82,14 +82,14 @@ html, body {
 }
 
 .slider img {
-  width: 90vw;
-
+  width: auto;
+  height: 65vh;
 }
 
 .content-button {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .content-button button {

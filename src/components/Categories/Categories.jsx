@@ -1,4 +1,4 @@
-import { Category } from '.';
+import { Category } from './Category';
 import featuredCategories from '../../mocks/en-us/product-categories.json';
 
 export const Categories = () => {

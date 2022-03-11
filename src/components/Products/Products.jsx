@@ -1,5 +1,5 @@
-import featuredProducts from '../../mocks/en-us/featured-products.json';
 import { ProductCard } from './ProductCard';
+import featuredProducts from '../../mocks/en-us/featured-products.json';
 
 export const Products = () => {
     const { results: resultsProducts } = featuredProducts;

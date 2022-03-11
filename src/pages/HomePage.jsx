@@ -1,8 +1,4 @@
-import React from 'react'
-import { Products } from '../components/Products/Products';
-import { Categories } from '../components/Categories';
-import Slider from '../components/Slider/Slider';
-
+import { Categories, Products, Slider } from '../components'
 
 export const HomePage = () => {
   

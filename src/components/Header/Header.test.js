@@ -1,7 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { getByLabelText} from '@testing-library/dom'
-import { Header } from ".";
-import App from "../App";
+import { Header } from "..";
 
 test('Header ', () => {
     render(<Header />);
