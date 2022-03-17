@@ -1,11 +1,12 @@
+import PropTypes from 'prop-types';
 
-export const Header = () => {
+export const Header = ({setPageCurrent}) => {
   return (
     <div className='header'>
       <div className='content-header'>
 
-        <div className='logo'>
-          <i className="fa-brands fa-earlybirds" />
+        <div className='logo' onClick={() => setPageCurrent(true)}>
+          <i className="fa-brands fa-earlybirds"/>
           <label>Capstone Project</label>
         </div>
 
@@ -26,4 +27,8 @@ export const Header = () => {
 
     </div>
   )
+}
+
+Header.propTypes = {
+  setPageCurrent: PropTypes.func.isRequired,
 }

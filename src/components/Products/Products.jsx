@@ -1,8 +1,7 @@
 import { ProductCard } from './ProductCard';
-import featuredProducts from '../../mocks/en-us/featured-products.json';
+import PropTypes from 'prop-types';
 
-export const Products = () => {
-    const { results: resultsProducts } = featuredProducts;
+export const Products = ({resultsProducts}) => {
 
     return (
         <>
@@ -23,4 +22,8 @@ export const Products = () => {
             </div>
         </>
     )
+}
+
+Products.propTypes = {
+    resultsProducts: PropTypes.array.isRequired,
 }

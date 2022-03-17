@@ -23,17 +23,16 @@ export const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       if (transitionActive) {
-        setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
+        setCurrentSlide(currentSlide === (length - 1) ? 0 : (currentSlide + 1) );
       }
-    }, 4000);
+    }, 3000);
     return () => clearInterval(interval);
-
-  }, [currentSlide, transitionActive, length]);
+  }, [transitionActive, length, currentSlide]);
 
   return (
     <div className='content'>
 
-      <div className='slider'>
+      <div>
         {
           resultsBanner.map(({ data }, idx) => {
             return (
