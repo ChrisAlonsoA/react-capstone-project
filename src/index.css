@@ -202,10 +202,15 @@ body {
 
 /* Sidebar  */
 
+@media screen and (max-width: 1000px) {
+  .product-list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+}
+
 .product-list {
-  /* display: grid;
-  grid-template-columns: 350px auto;
-  justify-items: stretch; */
   display: flex;
   flex-flow: row wrap;
   height: 90vh;
