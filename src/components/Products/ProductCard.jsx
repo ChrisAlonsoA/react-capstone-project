@@ -10,7 +10,7 @@ export const ProductCard = ({ name, url, slug, price }) => {
     <div className='product-card'>
       <img src={url} alt={name} />
       <h3>{name}</h3>
-      <p>{slug}</p>
+      <p>Category: {slug}</p>
       <h4>${numberWithCommas(price)}</h4>
     </div>
   )

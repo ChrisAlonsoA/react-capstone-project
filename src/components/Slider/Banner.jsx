@@ -15,13 +15,13 @@ export const Banner = ({url, title, idx, currentSlide}) => {
     //   }
 
     return (
-    <div className='slider'>
+    <div>
         {
              idx === currentSlide && (
-                <>
+                <div className='slider'>
                     <img src={url} alt={title}/>
                     <h1>{title}</h1>
-                </>
+                </div>
             )
         }
     </div>
